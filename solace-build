@@ -1,0 +1,8 @@
+
+
+1) Build ombre in ~/ombre with "make release-static"
+2) sudo apt-get install libunwind-dev libunbound-dev
+3) cp ~/ombre/src/crypto/libcrypto.a ~/ombre/src/crypto/libcncrypto.a
+4) mkdir build; cd build; cmake ..
+5) make
+
